@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#header-inicio {
+    color: deepskyblue;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    background-image: url('../img/backpink4.jpg');
+    background-position: center;
+}
+
+#nav-inicio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link-inicio {
+    width: 200px;
+    margin: 2px;
+    padding: 6px;
+    text-align: center;
+    border: 3px solid deeppink;
+}
+body {
+    background-image: url('../img/backpink5.jpeg');
+    background-attachment: fixed
+}
+ .header {
+    color: deepskyblue;
+    font-size: large;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: fantasy;
+    background-image: url('../img/backpink4.jpg');
+ }
+ 
+ .nav-bar {
+    font-size: medium;
+    width: 100%;
+    border: 2px solid deeppink;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('../img/backheart.jpeg');
+    }
+.nav-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link {
+    text-decoration-line: none;
+    color: whitesmoke;
+    background-color: deeppink;
+    width: 100%;
+}
+.nav-item-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulos {
+    color: deepskyblue;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-style: normal;
+    text-decoration-line: overline underline;
+}
+.parrafos {
+    color: black;
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: rgba(255, 192, 203, 0.705);
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+}
+.foto-bio {
+    width: 40%;
+    border: 2px solid deeppink;
+    margin: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.foto-bio2 {
+    width: 50%;
+    border: 2px solid deeppink;
+    margin: 7px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-insta {
+    width: 3%;
+    position: fixed;
+    right: 5px;
+    bottom: 15px;
+}
+.icon-spoti {
+    width: 3%;
+    position: fixed;
+    right: 50px;
+    bottom: 15px;
+}
+.icon-yt {
+    width: 3%;
+    position: fixed;
+    right: 95px;
+    bottom: 15px;
+}
+.followtext {
+    position: fixed;
+    bottom: 1px;
+    right: 0px;
+    font-size: x-small;
+    color: deeppink;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagen1 {
+    display: flex;
+}
+.parrafo1 {
+    color: black;
+    background-color: rgba(255, 192, 203, 0.705);
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 100%;
+    padding: 50px;
+    font-style: normal;
+}
+.flex1 {
+    display: flex;
+}
+.video-bio {
+    width: 40%;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.flex2 {
+    display: flex;
+}
+
+.parrafos4 {
+    color: black;
+    background-color: rgba(255, 192, 203, 0.705);
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+}
+
+.foto-disc {
+    width: 40%;
+    border: 2px solid deeppink;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.foto-disc-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex4 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex5 {
+    padding-top: 100px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.titulo2 {
+    color: deepskyblue;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 15px;
+    width: 100%;
+    font-style: normal;
+    text-decoration-line: overline underline;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: repeat(5, 200px);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin: 45px;
+}
+.grid-item {
+    font-size: larger;
+    text-align: center;
+    background-color: deeppink;
+    padding: 5px;
+}
+.grid-image {
+    width: 100%;
+    height: 100%;
+}
+.link-songs {
+    color: white;
+    background-color: rgba(255, 20, 145, 0.651);
+}
+.video-disco {
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.subt{
+    font-size: small;
+    text-align: center;
+}
+
+.titulos3 {
+    color: black;
+    font-size: larger;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.link-interno {
+    font-size: medium;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.foto-cantando {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid deeppink;
+}
+.foto-portada {
+    width: 350px;
+    padding: 5px;
+    border: 2px solid deeppink;
+}
+.foto-cancion {
+    width: 250px;
+    padding: 5px;
+    border: 2px solid deeppink;
+}
+
+.flex-imagen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video-tweet { 
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo3 {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.flex-fanart {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.foto-fanart {
+    width: 250px;
+    padding: 5px;
+    border: 2px solid deeppink;
+}
+.titulo4 {
+    font-size: larger;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: deeppink;
+}
+.fechas {
+    font-size: larger;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    color: deeppink;
+    background-color: rgba(100, 148, 237, 0.74);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link-tickets {
+    color: deeppink;
+    background-color: rgba(0, 191, 255, 0.616);
+    display: flex;
+    justify-content: center;
+}
+.videos-concert {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.forms {
+    text-align: center;
+}
+
+a:active {
+    background-color: pink;
+}
+
+p::first-letter {
+    font-size: xx-large;
+    font-family: italic;
+}
+
+.link-inicio:hover {
+    width: 85%;
+    height: 85%;
+}
+
+.grid-image:hover {
+    width: 90%;
+    height: 90%;
+}
+
+.link-tickets:hover {
+    background-color: pink;
+}
+.nav-link:hover {
+    background-color: pink;
+}
+.link-interno:hover {
+    background-color: deeppink;
+}
+
+.icon-insta:hover {
+    width: 6%;
+    height: 8%;
+}
+.icon-spoti:hover {
+    width: 6%;
+    height: 8%;
+}
+.icon-yt:hover {
+    width: 6%;
+    height: 8%;
+}
+/* .carousel-item {
+    width: 75%;
+    height: 75%; 
+} */
